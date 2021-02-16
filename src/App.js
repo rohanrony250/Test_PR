@@ -1,9 +1,10 @@
 import React from 'react'
-import NavbarComponent from './components/navbar-component/navbar-component'
+import HeaderComponent from './components/header-component/header-component';
+// import NavbarComponent from './components/navbar-component/navbar-component'
 function App() {
   return (
     <div>
-      <NavbarComponent/>
+      <HeaderComponent/>
     </div>
   );
 }

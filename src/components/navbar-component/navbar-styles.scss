@@ -1,0 +1,35 @@
+.search-input
+{
+    .search-input-field
+    {
+        border-radius: 62px;
+        width: 520px !important;
+        
+    }
+    .search-button
+    {
+        border-radius: 22px;
+        border-color: pink;
+    }
+}
+
+.navbar-titles
+{
+    
+    .navbar-title
+    {
+        font-weight: bold;
+        font-size: large;
+        text-transform: uppercase;
+        color: white;
+
+        &:hover
+        {
+            cursor: pointer;
+            border: 2px solid;
+            border-color: skyblue;
+            background-color: black;
+            color: #e7717d
+        }
+    }
+}
