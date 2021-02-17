@@ -1,9 +1,16 @@
 .main-header
 {
+    position: relative;
     min-height: 650px;
-    //background-color: black;
     background-image: url('../../resources/header-pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
+
+    .header-section
+    {
+        position: absolute;
+        bottom: 14em;
+        padding: 0;
+    }
 }
