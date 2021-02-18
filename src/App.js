@@ -1,10 +1,11 @@
 import React from 'react'
-import HeaderComponent from './components/header-component/header-component';
-// import NavbarComponent from './components/navbar-component/navbar-component'
+
+import HomepageComponent from './pages/homepage/homepage-component';
+
 function App() {
   return (
     <div>
-      <HeaderComponent/>
+      <HomepageComponent/>
     </div>
   );
 }

@@ -4,7 +4,9 @@ import HeaderComponent from '../../components/header-component/header-component'
 
 const HomepageComponent = () =>
 (
-    <HeaderComponent/>
+    <div className='homepage'>
+        <HeaderComponent/>
+    </div>
 )
 
 export default HomepageComponent
