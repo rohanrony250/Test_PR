@@ -12,7 +12,8 @@ const HeaderComponent = () =>
         <NavbarComponent/>
         <Container className='header-section' fluid>
             <hr className='bg-primary'/> 
-
+        </Container>
+        <Container fluid>
             <CarouselComponent/>
         </Container>
        

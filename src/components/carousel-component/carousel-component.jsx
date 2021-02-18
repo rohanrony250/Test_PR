@@ -11,10 +11,29 @@ const CarouselComponent = () =>
 (
    
         <Carousel>
-            <Carousel.Item className='pt-5'>
+            <Carousel.Item>
                 <CardDeck>
                     <Card>
-
+                        <Card.Img variant='top' src={Reactjs} style={{objectFit: 'cover', height: '37vh', width: "100%"}} />     
+                    </Card>
+                    <Card>
+                        <Card.Img variant='top' src={Whatif} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    </Card>
+                    <Card>
+                        <Card.Img variant='top' src={Movies} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    </Card>
+                </CardDeck>
+            </Carousel.Item>
+            <Carousel.Item>
+                <CardDeck>
+                    <Card>
+                        <Card.Img variant='top' src={Music} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    </Card>
+                    <Card>
+                        <Card.Img variant='top' src={Gaming} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    </Card>
+                    <Card>
+                        <Card.Img variant='top' src={Brofist} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
                     </Card>
                 </CardDeck>
             </Carousel.Item>
