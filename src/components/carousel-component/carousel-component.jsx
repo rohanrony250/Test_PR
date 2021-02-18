@@ -1,6 +1,6 @@
 import React from "react";
 import './carousel-styles.scss'
-import { Carousel, Card, CardDeck, Container } from 'react-bootstrap'
+import { Carousel, Card, CardDeck} from 'react-bootstrap'
 import Music from '../../resources/music.jpg'
 import Gaming from '../../resources/gaming.jpg'
 import Movies from '../../resources/movieclips.png'

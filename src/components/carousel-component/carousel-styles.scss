@@ -1,12 +1,13 @@
 .carousel-items
 {
-
+    
     .carousel-card
     {
         overflow: hidden;
         &:hover
         {
             cursor: pointer;
+            border-color: brown;
             .card-image
             {
                 transform: scale(1.3);
