@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import CarouselComponent from './components/carousel-component/carousel-component'
 import { BrowserRouter } from 'react-router-dom'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import reportWebVitals from './reportWebVitals';
@@ -9,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <BrowserRouter>
     <App />
+    {/* <CarouselComponent/> */}
   </BrowserRouter>,
   document.getElementById('root')
 );

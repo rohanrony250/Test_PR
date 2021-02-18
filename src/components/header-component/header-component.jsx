@@ -11,16 +11,11 @@ const HeaderComponent = () =>
     <div className='main-header'>
         <NavbarComponent/>
         <Container className='header-section' fluid>
-            {/* <Row>
-                <Col>
-                    <hr className='bg-primary'/>
-               </Col>
-            </Row> */}
+            <hr className='bg-primary'/> 
 
-            <div className='header-carousel'>
-                <CarouselComponent/>
-            </div>
+            <CarouselComponent/>
         </Container>
+       
     </div>
     
     
