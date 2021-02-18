@@ -11,9 +11,9 @@ const HeaderComponent = () =>
     <div className='main-header'>
         <NavbarComponent/>
         <Container className='header-section' fluid>
-            <hr className='bg-primary'/> 
+            <hr className='bg-light'/> 
         </Container>
-        <Container fluid>
+        <Container fluid className='header-carousel'>
             <CarouselComponent/>
         </Container>
        

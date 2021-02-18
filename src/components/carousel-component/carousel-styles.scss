@@ -1,4 +1,17 @@
-.carousel-card
+.carousel-items
 {
-    width: 18rem !important;
+
+    .carousel-card
+    {
+        overflow: hidden;
+        &:hover
+        {
+            cursor: pointer;
+            .card-image
+            {
+                transform: scale(1.3);
+            }
+        }
+    }
+
 }

@@ -1,7 +1,7 @@
 .main-header
 {
     position: relative;
-    min-height: 650px;
+    min-height: 750px;
     background-image: url('../../resources/header-pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,13 @@
     .header-section
     {
         position: absolute;
-        bottom: 14em;
+        bottom: 23em;
         padding: 0;
+    }
+
+    .header-carousel
+    {
+        position: absolute;
+        bottom: 10px;
     }
 }

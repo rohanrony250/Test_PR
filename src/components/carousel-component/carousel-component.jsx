@@ -9,31 +9,30 @@ import Reactjs from '../../resources/reactjs.png'
 import Whatif from '../../resources/WhatIf.png'
 const CarouselComponent = () =>
 (
-   
-        <Carousel>
+        <Carousel className='carousel-items'>
             <Carousel.Item>
                 <CardDeck>
-                    <Card>
-                        <Card.Img variant='top' src={Reactjs} style={{objectFit: 'cover', height: '37vh', width: "100%"}} />     
+                    <Card className='carousel-card'>
+                        <Card.Img variant='top' src={Reactjs} style={{objectFit: 'cover', height: '37vh', width: "100%"}} className='card-image'/>     
                     </Card>
-                    <Card>
-                        <Card.Img variant='top' src={Whatif} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    <Card className='carousel-card'>
+                        <Card.Img variant='top' src={Whatif} style={{objectFit: 'cover', height: '37vh', width: "100%"}} className='card-image'/>   
                     </Card>
-                    <Card>
-                        <Card.Img variant='top' src={Movies} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    <Card className='carousel-card'>
+                        <Card.Img variant='top' src={Movies} style={{objectFit: 'cover', height: '37vh', width: "100%"}} className='card-image'/>   
                     </Card>
                 </CardDeck>
             </Carousel.Item>
             <Carousel.Item>
                 <CardDeck>
-                    <Card>
-                        <Card.Img variant='top' src={Music} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    <Card className='carousel-card'>
+                        <Card.Img variant='top' src={Music} style={{objectFit: 'cover', height: '37vh', width: "100%"}} className='card-image'/>   
                     </Card>
-                    <Card>
-                        <Card.Img variant='top' src={Gaming} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    <Card className='carousel-card'>
+                        <Card.Img variant='top' src={Gaming} style={{objectFit: 'cover', height: '37vh', width: "100%"}} className='card-image'/>   
                     </Card>
-                    <Card>
-                        <Card.Img variant='top' src={Brofist} style={{objectFit: 'cover', height: '37vh', width: "100%"}}/>   
+                    <Card className='carousel-card'>
+                        <Card.Img variant='top' src={Brofist} style={{objectFit: 'cover', height: '37vh', width: "100%"}} className='card-image'/>   
                     </Card>
                 </CardDeck>
             </Carousel.Item>
