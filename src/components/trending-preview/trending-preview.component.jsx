@@ -4,7 +4,7 @@ import './trending-preview.styles.scss'
 const TrendingView = () =>
 (
 
-    <div className='mt-5 text-center text-white'>
+    <div className='mt-5 text-white'>
         <Container>
             <Row>
                 <Col>

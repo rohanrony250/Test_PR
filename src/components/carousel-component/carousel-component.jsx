@@ -9,7 +9,7 @@ import Reactjs from '../../resources/reactjs.png'
 import Whatif from '../../resources/WhatIf.png'
 const CarouselComponent = () =>
 (
-        <Carousel className='carousel-items'>
+        <Carousel className='carousel-items pt-4'>
             <Carousel.Item>
                 <CardDeck>
                     <Card className='carousel-card'>
