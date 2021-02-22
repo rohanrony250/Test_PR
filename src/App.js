@@ -12,11 +12,13 @@ class App extends React.Component
 
   }
 
-  componentDidMount()
+  async componentDidMount()
   {
-    const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forUsername=GoogleDevelopers&key=${API_KEY} HTTP/1.1`
-    fetch(url)
-    .then(res => res.json())
+    const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&forUsername=GoogleDevelopers&key=${API_KEY}`
+    const fetchres = await fetch(url);
+    const res = await fetchres.json();
+    console.log(res); 
+    
       
       
   }
